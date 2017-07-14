@@ -69,7 +69,7 @@ void filterUpdate(float w_x, float w_y, float w_z, float a_x, float a_y, float a
 	a_y /= norm;
 	a_z /= norm;
 	// normalise the magnetometer measurement
-	norm = sqrt(m_x * m_x + m_y * m_y + m_z * m_z);
+	//norm = sqrt(m_x * m_x + m_y * m_y + m_z * m_z);
 	m_x /= norm;
 	m_y /= norm;
 	m_z /= norm;
